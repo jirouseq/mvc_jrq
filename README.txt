@@ -1,7 +1,7 @@
 ********** CZECH **********
 
 Název projektu:
-mvc_jirouseq
+mvc_jrq
 
 Typ projektu:
 PHP MVC framework + jednoduchý CMS
@@ -147,7 +147,7 @@ jirouseq@gmail.com
 ********** ENGLISH **********
 
 Project name:
-mvc_jirouseq
+mvc_jrq
 
 Project type:
 PHP MVC framework + simple CMS
