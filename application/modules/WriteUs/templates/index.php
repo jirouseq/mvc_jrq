@@ -1,0 +1,1 @@
+<a href="<?= $this->link->get('home', 'contactForm', null, null) ?>" class="nav-link link-light"><i class="bi bi-envelope me-2"></i>[~write-us~]</a>

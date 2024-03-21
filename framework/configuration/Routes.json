@@ -1,0 +1,256 @@
+{
+  "controller": {
+    "homepage": {
+      "cs": {
+        "url": "uvodni-stranka",
+        "title": "Úvodní stránka",
+        "metadescription": "Vítejte na úvodní stránce",
+        "metakeywords": "uvodní, hlavní"
+      },
+      "en": {
+        "url": "homepage",
+        "title": "Homepage",
+        "metadescription": "Welcome to the home page",
+        "metakeywords": "welcome, homepage"
+      },
+      "permissions": ""
+    },
+    "error": {
+      "cs": {
+        "url": "chyba",
+        "title": "Chyba",
+        "metadescription": "Chyba",
+        "metakeywords": "chyba"
+      },
+      "en": {
+        "url": "error",
+        "title": "Error",
+        "metadescription": "error",
+        "metakeywords": "error"
+      },
+      "permissions": ""
+    },
+    "login": {
+      "cs": {
+        "url": "prihlaseni",
+        "title": "Přihlášení",
+        "metadescription": "Přihlášení uživatele",
+        "metakeywords": "přihlášení, uživatel"
+      },
+      "en": {
+        "url": "login",
+        "title": "Login",
+        "metadescription": "User Login",
+        "metakeywords": "login, user"
+      },
+      "permissions": ""
+    },
+    "logout": {
+      "cs": {
+        "url": "odhlaseni",
+        "title": "Odhlášení",
+        "metadescription": "Odhlášení uživatele",
+        "metakeywords": "odhlášení, uživatel"
+      },
+      "en": {
+        "url": "logout",
+        "title": "Logout",
+        "metadescription": "User Logout",
+        "metakeywords": "logout, user"
+      },
+      "permissions": ""
+    },
+    "registration": {
+      "cs": {
+        "url": "registrace",
+        "title": "Registrace",
+        "metadescription": "Registrace uživatele",
+        "metakeywords": "registrace, uživatel"
+      },
+      "en": {
+        "url": "registration",
+        "title": "Registration",
+        "metadescription": "User Logout",
+        "metakeywords": "logout, user"
+      },
+      "permissions": ""
+    },
+    "forgottenPassword": {
+      "cs": {
+        "url": "zapomenute-heslo",
+        "title": "Zapomenuté heslo",
+        "metadescription": "Zapomenuté heslo uživatele",
+        "metakeywords": "zapomenuté, heslo, uživatel"
+      },
+      "en": {
+        "url": "forgotten-password",
+        "title": "Forgotten Password",
+        "metadescription": "Forgotten Password",
+        "metakeywords": "forgotten, password, user"
+      },
+      "permissions": ""
+    },
+    "pages": {
+      "cs": {
+        "url": "stranky",
+        "title": "Stránky",
+        "metadescription": "stránky",
+        "metakeywords": "stránky"
+      },
+      "en": {
+        "url": "pages",
+        "title": "Pages",
+        "metadescription": "pages",
+        "metakeywords": "pages"
+      },
+      "permissions": ""
+    },
+    "dashboard": {
+      "cs": {
+        "url": "dashboard",
+        "title": "Dashboard",
+        "metadescription": "Administrace",
+        "metakeywords": "dashboard,administrace"
+      },
+      "en": {
+        "url": "dashboard",
+        "title": "Dashboard",
+        "metadescription": "Administration",
+        "metakeywords": "administration,dashboard"
+      },
+      "permissions": "superAdmin, editor"
+    },
+    "users": {
+      "cs": {
+        "url": "uzivatele",
+        "title": "Uživatelé",
+        "metadescription": "Uživatelé",
+        "metakeywords": "uživatelé"
+      },
+      "en": {
+        "url": "users",
+        "title": "Users",
+        "metadescription": "Users",
+        "metakeywords": "users"
+      },
+      "permissions": "superAdmin"
+    },
+    "gallery": {
+      "cs": {
+        "url": "galerie",
+        "title": "Galerie",
+        "metadescription": "Galerie obrázků",
+        "metakeywords": "fotky, obrázky, nahrát, upload"
+      },
+      "en": {
+        "url": "gallery",
+        "title": "Gallery",
+        "metadescription": "Gallery images",
+        "metakeywords": "photos, images, upload"
+      },
+      "permissions": "superAdmin, editor"
+    },
+    "settings": {
+      "cs": {
+        "url": "nastaveni",
+        "title": "Nastavení",
+        "metadescription": "Nastavení aplikace",
+        "metakeywords": "settings, nastavení"
+      },
+      "en": {
+        "url": "settings",
+        "title": "Settings",
+        "metadescription": "Settings application",
+        "metakeywords": "settings"
+      },
+      "permissions": "superAdmin, editor"
+    },
+    "menu": {
+      "cs": {
+        "url": "menu",
+        "title": "Menu",
+        "metadescription": "Menu",
+        "metakeywords": "menu"
+      },
+      "en": {
+        "url": "menu",
+        "title": "Menu",
+        "metadescription": "Menu",
+        "metakeywords": "menu"
+      },
+      "permissions": "superAdmin, editor"
+    },
+    "contactForm": {
+      "cs": {
+        "url": "kontaktni-formular",
+        "title": "Kontaktní formulář",
+        "metadescription": "Kontaktní formulář",
+        "metakeywords": "kontakt, formulář"
+      },
+      "en": {
+        "url": "contact-form",
+        "title": "Contact form",
+        "metadescription": "Contact form",
+        "metakeywords": "contact, form"
+      },
+      "permissions": "superAdmin, editor"
+    },
+    "profile": {
+      "cs": {
+        "url": "profil",
+        "title": "Profil",
+        "metadescription": "Profil uživatele",
+        "metakeywords": "profil, uživatel"
+      },
+      "en": {
+        "url": "profile",
+        "title": "Profile",
+        "metadescription": "Profile User",
+        "metakeywords": "profile, user"
+      },
+      "permissions": "superAdmin, editor"
+    }
+  },
+  "method": {
+    "add": {
+      "cs": {
+        "url": "pridat"
+      },
+      "en": {
+        "url": "add"
+      }
+    },
+    "edit": {
+      "cs": {
+        "url": "editovat"
+      },
+      "en": {
+        "url": "edit"
+      }
+    },
+    "delete": {
+      "cs": {
+        "url": "odstranit"
+      },
+      "en": {
+        "url": "delete"
+      }
+    },
+    "permission": {
+      "cs": {
+        "url": "opravneni"
+      },
+      "en": {
+        "url": "permission"
+      }
+    },
+    "send": {
+      "cs": {
+        "url": "odeslat"
+      },
+      "en": {
+        "url": "send"
+      }
+    }
+  }
+}

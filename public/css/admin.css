@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+/* root */
+
+:root {
+  --color-dark: rgb(44, 62, 80);
+  --color-text: #333;
+  --color-light-gray: rgb(248, 248, 248);
+  --color-danger: rgb(220, 53, 69);
+  --color-gray: #b4b4b5;
+  --color-primary: #0d6efd;
+  --color-primary-light: #cfe2ff;
+  --color-warning: #ffc107;
+  --color-success: #30d158;
+  --color-info: #0dcaf0;
+  --color-blue-light: #91bbfa;
+  --color-blue-dark: #0042aa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  color: var(--color-blue-dark);
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--color-blue-dark);
+}
+
+/* offcanvas */
+
+.offcanvas .nav-link:hover i {
+  color: var(--color-primary) !important;
+}
+
+/* main */
+main {
+  min-height: calc(100vh - 200px);
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+/* tables */
+
+table thead tr th {
+  font-weight: 300;
+}
+
+/* classes */
+
+.icon-sort.active {
+  color: var(--color-primary);
+}
+
+.table-action-icon {
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(180deg);
+}
+
+.dropdown-toggle:after {
+  transition: 0.7s;
+}
+
+#sortableMenu .list-group-item {
+  cursor: move;
+}
+
+.technologies i {
+  font-size: 5rem;
+  color: var(--color-blue-light);
+}
+
+/* switches */
+
+.switch-success .form-check-input:checked {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.switch-danger .form-check-input:checked {
+  background-color: var(--color-danger);
+  border-color: var(--color-danger);
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.switch-warning .form-check-input:checked {
+  background-color: var(--color-warning);
+  border-color: var(--color-warning);
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.switch-info .form-check-input:checked {
+  background-color: var(--color-info);
+  border-color: var(--color-info);
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.switch-blue-light .form-check-input:checked {
+  background-color: var(--color-blue-light);
+  border-color: var(--color-blue-light);
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) {
+  /* classes */
+
+  .modal-images {
+    min-width: 60%;
+  }
+}

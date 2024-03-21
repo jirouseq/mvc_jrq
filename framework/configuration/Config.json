@@ -1,0 +1,45 @@
+{
+  "database": {
+    "db_host": "your ip address web",
+    "db_name": "mysql database name",
+    "db_user": "database user",
+    "db_password": "database password"
+  },
+  "url": {
+    "subdirectory": ""
+  },
+  "languages": {
+    "multilanguage": true,
+    "default": "cs",
+    "lang": {
+      "cs": "česky",
+      "en": "english"
+    }
+  },
+  "roles": {
+    "superAdmin": {
+      "name": "Super Admin",
+      "permissions": ["manageUsers", "manageSettings", "manageContent"]
+    },
+    "editor": {
+      "name": "Editor",
+      "permissions": ["manageContent"]
+    },
+    "basicUser": {
+      "name": "Basic User",
+      "permissions": ["readContent"]
+    }
+  },
+  "emails": {
+    "admin": {
+      "host": "example: smtp.seznam.cz",
+      "username": "username",
+      "password": "password",
+      "from": {
+        "email": "xxx@xxx.xxx",
+        "name": "name for email"
+      }
+    }
+  },
+  "emailForContact": "xxx@xxx.xxx"
+}

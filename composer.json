@@ -1,0 +1,21 @@
+{
+  "require": {
+    "php-di/php-di": "^6.4",
+    "phpmailer/phpmailer": "^6.8",
+    "ezyang/htmlpurifier": "^4.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "library\\": "framework/library/",
+      "configuration\\": "framework/configuration/",
+      "database\\": "framework/database/",
+      "home\\controller\\": "application/home/controller",
+      "home\\model\\": "application/home/model",
+      "admin\\controller\\": "application/admin/controller",
+      "admin\\model\\": "application/admin/model",
+      "language\\": "framework/languages",
+      "modules\\": "application/modules",
+      "interfaces\\": "application/interfaces"
+    }
+  }
+}
