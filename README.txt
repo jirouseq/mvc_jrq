@@ -1,3 +1,147 @@
+********** ENGLISH **********
+
+Project name:
+mvc_jrq
+
+Project type:
+PHP MVC framework + simple CMS
+
+CMS:
+User login and registration, user administration, page creation and administration
+
+Reason for creation:
+Learning and practicing the technologies listed below
+
+Used technologies:
+PHP, MYSQL, HTML, CSS, Javascript, jQUERY, Bootstrap
+
+# MVC:
+
+## directory structure
+
+application
+    - admin
+        - controller
+        - css
+        - js
+        - model
+        - view
+    - home
+        - controller
+        - css
+        - js
+        - model
+        - view
+    - interfaces
+    - modules
+errors
+framework
+    - configuration
+    - database
+    - languages
+    - library
+public
+    - css
+    - environment
+    - images
+    - js
+vendor
+.htaccess
+index.php
+
+Installation and Configuration of MVC and CMS:
+
+1. Copy the folders and files to the Internet server
+2. Import the db.sql file into your MYSQL database
+3. Edit the file framework/configuration/Config.json
+    (in case the files were not copied to the main root directory, it is necessary to add "url":{"subdirectory": "NAME_FOLDER/"},
+    and in the file public/js/Main.js, add url_directory = "/NAME_FOLDER/")
+4. Edit the file vendor/kcfinder/conf/config.php
+    'uploadURL' => "/public/images/image/",
+    'uploadDir' => "/var/www/html/vase-domena.com/public/images/image/",
+5. For folder /public/images/ it is necessary to modify the write permissions
+6. Login:
+    username: admin@admin.ad
+    password: 12345678
+7. Change email and password in the user profile!!
+8. Delete the db.sql file from the root directory
+
+## Work with MVC:
+
+Namespaces:
+
+admin controlles: admin\controller
+admin models:     admin\model
+
+home controlles: home\controller
+home models:     home\model
+
+### Controller creation:
+
+    NewController.php
+
+    <?php
+
+        namespace admin\controller;
+
+        use library\ParentController;
+
+        class NewController extends ParentController{}
+
+### registration of the controller and its methods in framework/configuration/Routes.json
+
+        "controller": {
+            "new": {
+                "cs": {
+                    "url": "novy",
+                    "title": "Nový",
+                    "metadescription": "popis",
+                    "metakeywords": "klíčová slova"
+                },
+                "en": {
+                    "url": "new",
+                    "title": "New",
+                    "metadescription": "description",
+                    "metakeywords": "keywords"
+                },
+                "permissions": "permissions"
+            }
+        }
+
+        "method": {
+            "new-method": {
+                "cs": {
+                    "url": "nova-metoda"
+                },
+                 "en": {
+                    "url": "new-method"
+                }
+            }
+        }
+
+### Model creation (optional):
+
+    NewModel.php
+
+    <?php
+
+        namespace admin\model;
+
+        use database\Connection;
+
+        class NewModel{}
+
+### Creation of a javascript file (optional):
+
+    new.js
+
+### Creation of a css file (optional):
+
+    new.css
+
+### contact
+jirouseq@gmail.com
+
 ********** CZECH **********
 
 Název projektu:
@@ -144,149 +288,6 @@ jirouseq@gmail.com
 
 
 
-********** ENGLISH **********
-
-Project name:
-mvc_jrq
-
-Project type:
-PHP MVC framework + simple CMS
-
-CMS:
-User login and registration, user administration, page creation and administration
-
-Reason for creation:
-Learning and practicing the technologies listed below
-
-Used technologies:
-PHP, MYSQL, HTML, CSS, Javascript, jQUERY, Bootstrap
-
-# MVC:
-
-## directory structure
-
-application
-    - admin
-        - controller
-        - css
-        - js
-        - model
-        - view
-    - home
-        - controller
-        - css
-        - js
-        - model
-        - view
-    - interfaces
-    - modules
-errors
-framework
-    - configuration
-    - database
-    - languages
-    - library
-public
-    - css
-    - environment
-    - images
-    - js
-vendor
-.htaccess
-index.php
-
-Installation and Configuration of MVC and CMS:
-
-1. Copy the folders and files to the Internet server
-2. Import the db.sql file into your MYSQL database
-3. Edit the file framework/configuration/Config.json
-    (in case the files were not copied to the main root directory, it is necessary to add "url":{"subdirectory": "NAME_FOLDER/"},
-    and in the file public/js/Main.js, add url_directory = "/NAME_FOLDER/")
-4. Edit the file vendor/kcfinder/conf/config.php
-    'uploadURL' => "/public/images/image/",
-    'uploadDir' => "/var/www/html/vase-domena.com/public/images/image/",
-5. For folder /public/images/ it is necessary to modify the write permissions
-6. Login:
-    username: admin@admin.ad
-    password: 12345678
-7. Change email and password in the user profile!!
-8. Delete the db.sql file from the root directory
-
-## Work with MVC:
-
-Namespaces:
-
-admin controlles: admin\controller
-admin models:     admin\model
-
-home controlles: home\controller
-home models:     home\model
-
-### Controller creation:
-
-    NewController.php
-
-    <?php
-
-        namespace admin\controller;
-
-        use library\ParentController;
-
-        class NewController extends ParentController{}
-
-### registration of the controller and its methods in framework/configuration/Routes.json
-
-        "controller": {
-            "new": {
-                "cs": {
-                    "url": "novy",
-                    "title": "Nový",
-                    "metadescription": "popis",
-                    "metakeywords": "klíčová slova"
-                },
-                "en": {
-                    "url": "new",
-                    "title": "New",
-                    "metadescription": "description",
-                    "metakeywords": "keywords"
-                },
-                "permissions": "permissions"
-            }
-        }
-
-        "method": {
-            "new-method": {
-                "cs": {
-                    "url": "nova-metoda"
-                },
-                 "en": {
-                    "url": "new-method"
-                }
-            }
-        }
-
-### Model creation (optional):
-
-    NewModel.php
-
-    <?php
-
-        namespace admin\model;
-
-        use database\Connection;
-
-        class NewModel{}
-
-### Creation of a javascript file (optional):
-
-    new.js
-
-### Creation of a css file (optional):
-
-    new.css
-
-### contact
-jirouseq@gmail.com
 
 
 
